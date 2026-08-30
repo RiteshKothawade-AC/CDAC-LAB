@@ -65,9 +65,7 @@ int main()
 
     double fahrenheit = (temperature * 9 / 5) + 32;
 
-    cout << "Temperature : "
-         << temperature << " C  "
-         << fahrenheit << " F" << endl;
+    cout << "Temperature : "<< temperature << " C /"<< fahrenheit << " F" << endl;
 
     int status = getStatusCode(temperature);
 
