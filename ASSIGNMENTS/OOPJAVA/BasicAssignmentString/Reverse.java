@@ -19,7 +19,7 @@ public class Reverse {
 
 		System.out.println("Reversed String: " + reverse);
 		
-		//Inbuilt Method by usinsg StringBuffer
+		//Inbuilt Method by using StringBuffer
 		StringBuffer objStr = new StringBuffer(str);
 
 		System.out.println("Reverse By Using StringBuffer: "+ objStr.reverse());
